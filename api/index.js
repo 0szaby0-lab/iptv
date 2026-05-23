@@ -94,7 +94,7 @@ app.get(['/player_api.php', '/xmltv.php', '/epg.php', '/get.php', '/m3u.php'], a
                     data.user_info.password = MY_PASS;
                     data.user_info.auth = 1;
                     data.user_info.status = "Active";
-                    data.user_info.exp_date = "1012608000"; // Távoli lejárat (2002)
+                    data.user_info.exp_date = "4797360000"; // Távoli lejárat (2121.12.21)
                 }
 
                 // SERVER_INFO módosítása (Hogy a TV a mi proxynkat hívja tovább)
